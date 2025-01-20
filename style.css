@@ -1,100 +1,91 @@
+html {
+    scroll-behavior: smooth;
+  }
+
 .header_get {
     background-image: url(https://i.pinimg.com/736x/89/79/2a/89792a145c34e95f53b4140849eae48c.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 850px;
+    height: 900px;
 }
 
 .back{
     height: 900px;
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .Section1{
-    margin-top: 150px;
+    margin-top: 100px;
     text-align: center;
     font-size: 22px;
 }
 
-.Section4{
-    padding-left: 300px;
-    padding-right: 300px;
+.Section2{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 22px;
 }
 
-.images{
-    bac
+.Section3{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 22px;
 }
 
-.container{
-    display: grid;
-
-    grid-template-columns: 400px 1fr;
+.header{
+    display:inline-flex
 }
 
 .logo{
+    padding-top: 25px;
     text-transform: uppercase;
     font-size: 25px;
 }
 
-.menu{
-    margin-top: 30px;
-}
-
 .menu li{
     display: inline;
-    margin-inline: 10px;
+    margin-inline: 15px;
     text-transform: uppercase;
+    float: right;
     font-size: 20px;
 }
 
 .h1_main{
-    margin-top: 200px;
+    margin-top: 700px;
     text-align: center;
-    margin-bottom: 5px;
-    font-size: 42px;
+    font-size: 35px;
     text-transform: uppercase;
 }
+
 .p_main{
     text-align: center;
+    font-size: 20px;
 }
 
-.container2{
+.container3 {
+    padding-left: 100px;
+    padding-right: 100px ;
     display: grid;
-
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 5px auto;
 }
 
-.container3{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 20px;
-}
-
-.container_with_make{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 20px;
-
-}
-.my_photo{
+/* .my_photo{
     height: 10px;
     padding-left: 10px;
+} */
+
+.photo{
+    height: 400px;
+    width: 400px;
+    border: 3px solid rgb(0, 0, 0);
 }
 
-.my_photo2{
-    border: 1px solid gray;
-    height: 120px;
-    padding-left: 100px;
-}
-
-.mymake{
-    background-color: rgb(255, 255, 255);
-}
-
-.photo-block, .model{
-    height: 50px;
-    width: 45px;
-    border: 1px solid gray;
+.model{
+    text-align: center;
+    margin-top: 15px;
+    height: 15px;
+    font-size: 25px;
 }
