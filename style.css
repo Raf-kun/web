@@ -1,0 +1,100 @@
+.header_get {
+    background-image: url(https://i.pinimg.com/736x/89/79/2a/89792a145c34e95f53b4140849eae48c.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 850px;
+}
+
+.back{
+    height: 900px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.Section1{
+    margin-top: 150px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.Section4{
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.images{
+    bac
+}
+
+.container{
+    display: grid;
+
+    grid-template-columns: 400px 1fr;
+}
+
+.logo{
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.menu{
+    margin-top: 30px;
+}
+
+.menu li{
+    display: inline;
+    margin-inline: 10px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.h1_main{
+    margin-top: 200px;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 42px;
+    text-transform: uppercase;
+}
+.p_main{
+    text-align: center;
+}
+
+.container2{
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.container3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.container_with_make{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+
+}
+.my_photo{
+    height: 10px;
+    padding-left: 10px;
+}
+
+.my_photo2{
+    border: 1px solid gray;
+    height: 120px;
+    padding-left: 100px;
+}
+
+.mymake{
+    background-color: rgb(255, 255, 255);
+}
+
+.photo-block, .model{
+    height: 50px;
+    width: 45px;
+    border: 1px solid gray;
+}
